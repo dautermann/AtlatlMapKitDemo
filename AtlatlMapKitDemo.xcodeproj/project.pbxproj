@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259A557917254F4500917737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259A557817254F4500917737 /* UIKit.framework */; };
+		259A557B17254F4500917737 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259A557A17254F4500917737 /* Foundation.framework */; };
+		259A557D17254F4500917737 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259A557C17254F4500917737 /* CoreGraphics.framework */; };
+		259A558317254F4500917737 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 259A558117254F4500917737 /* InfoPlist.strings */; };
+		259A558517254F4500917737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A558417254F4500917737 /* main.m */; };
+		259A558917254F4500917737 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A558817254F4500917737 /* AppDelegate.m */; };
+		259A558B17254F4500917737 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 259A558A17254F4500917737 /* Default.png */; };
+		259A558D17254F4500917737 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259A558C17254F4500917737 /* Default@2x.png */; };
+		259A558F17254F4500917737 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 259A558E17254F4500917737 /* Default-568h@2x.png */; };
+		259A559217254F4500917737 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A559017254F4500917737 /* MainStoryboard_iPhone.storyboard */; };
+		259A559517254F4500917737 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259A559317254F4500917737 /* MainStoryboard_iPad.storyboard */; };
+		259A559817254F4500917737 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A559717254F4500917737 /* ViewController.m */; };
+		259A55A01725504100917737 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 259A559F1725504100917737 /* Person.m */; };
+		259A55A217255F4800917737 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259A55A117255F4800917737 /* CoreLocation.framework */; };
+		259A55A417255F5200917737 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259A55A317255F5200917737 /* MapKit.framework */; };
+		25C99CC017268EFC00D8652A /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CBA17268EFC00D8652A /* 1.png */; };
+		25C99CC117268EFC00D8652A /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CBB17268EFC00D8652A /* 3.png */; };
+		25C99CC217268EFC00D8652A /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CBC17268EFC00D8652A /* 2.png */; };
+		25C99CC317268EFC00D8652A /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CBD17268EFC00D8652A /* 4.png */; };
+		25C99CC417268EFC00D8652A /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CBE17268EFC00D8652A /* 5.png */; };
+		25C99CC517268EFC00D8652A /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CBF17268EFC00D8652A /* 6.png */; };
+		25C99CD81726957000D8652A /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CC81726956F00D8652A /* Content.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25C99CD91726957000D8652A /* Annotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CCB1726956F00D8652A /* Annotation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25C99CDA1726957000D8652A /* AnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CCE1726956F00D8652A /* AnnotationView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25C99CDB1726957000D8652A /* BaseCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CD01726957000D8652A /* BaseCalloutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25C99CDC1726957000D8652A /* CalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CD21726957000D8652A /* CalloutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25C99CDD1726957000D8652A /* CalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CD31726957000D8652A /* CalloutView.xib */; };
+		25C99CDE1726957000D8652A /* CalloutAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CD51726957000D8652A /* CalloutAnnotation.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25C99CDF1726957000D8652A /* MapUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CD71726957000D8652A /* MapUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25C99CE41726966A00D8652A /* MyCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CE21726966A00D8652A /* MyCalloutView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		25C99CE51726966A00D8652A /* MyCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CE31726966A00D8652A /* MyCalloutView.xib */; };
+		25C99CE717269E6000D8652A /* blue-pin.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C99CE617269E6000D8652A /* blue-pin.png */; };
+		25C99CEA1726AC6E00D8652A /* AtlatlButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C99CE91726AC6D00D8652A /* AtlAtlButton.m */; };
+		25DB89A51727F5F8007E9F2A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25DB89A41727F5F8007E9F2A /* QuartzCore.framework */; };
+		25DB89A71728052A007E9F2A /* AppIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB89A61728052A007E9F2A /* AppIcon@2x.png */; };
+		25DB89A917280559007E9F2A /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 25DB89A817280559007E9F2A /* AppIcon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		259A557517254F4500917737 /* AtlatlMapKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtlatlMapKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259A557817254F4500917737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		259A557A17254F4500917737 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		259A557C17254F4500917737 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		259A558017254F4500917737 /* AtlatlMapKitDemo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AtlatlMapKitDemo.plist; sourceTree = "<group>"; };
+		259A558217254F4500917737 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		259A558417254F4500917737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		259A558617254F4500917737 /* AtlatlMapKitDemo.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtlatlMapKitDemo.pch; sourceTree = "<group>"; };
+		259A558717254F4500917737 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		259A558817254F4500917737 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		259A558A17254F4500917737 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		259A558C17254F4500917737 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		259A558E17254F4500917737 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		259A559117254F4500917737 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		259A559417254F4500917737 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		259A559617254F4500917737 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		259A559717254F4500917737 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		259A559E1725504100917737 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		259A559F1725504100917737 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		259A55A117255F4800917737 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		259A55A317255F5200917737 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		25C99CBA17268EFC00D8652A /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		25C99CBB17268EFC00D8652A /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		25C99CBC17268EFC00D8652A /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		25C99CBD17268EFC00D8652A /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		25C99CBE17268EFC00D8652A /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		25C99CBF17268EFC00D8652A /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		25C99CC71726956F00D8652A /* Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
+		25C99CC81726956F00D8652A /* Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
+		25C99CC91726956F00D8652A /* AnnotationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationProtocol.h; sourceTree = "<group>"; };
+		25C99CCA1726956F00D8652A /* Annotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Annotation.h; sourceTree = "<group>"; };
+		25C99CCB1726956F00D8652A /* Annotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Annotation.m; sourceTree = "<group>"; wrapsLines = 0; };
+		25C99CCC1726956F00D8652A /* AnnotationViewProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationViewProtocol.h; sourceTree = "<group>"; };
+		25C99CCD1726956F00D8652A /* AnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnnotationView.h; sourceTree = "<group>"; };
+		25C99CCE1726956F00D8652A /* AnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnnotationView.m; sourceTree = "<group>"; };
+		25C99CCF1726956F00D8652A /* BaseCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseCalloutView.h; sourceTree = "<group>"; };
+		25C99CD01726957000D8652A /* BaseCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseCalloutView.m; sourceTree = "<group>"; };
+		25C99CD11726957000D8652A /* CalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutView.h; sourceTree = "<group>"; };
+		25C99CD21726957000D8652A /* CalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutView.m; sourceTree = "<group>"; };
+		25C99CD31726957000D8652A /* CalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalloutView.xib; sourceTree = "<group>"; };
+		25C99CD41726957000D8652A /* CalloutAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalloutAnnotation.h; sourceTree = "<group>"; };
+		25C99CD51726957000D8652A /* CalloutAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalloutAnnotation.m; sourceTree = "<group>"; };
+		25C99CD61726957000D8652A /* MapUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapUtil.h; sourceTree = "<group>"; };
+		25C99CD71726957000D8652A /* MapUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapUtil.m; sourceTree = "<group>"; };
+		25C99CE11726966A00D8652A /* MyCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCalloutView.h; sourceTree = "<group>"; };
+		25C99CE21726966A00D8652A /* MyCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCalloutView.m; sourceTree = "<group>"; };
+		25C99CE31726966A00D8652A /* MyCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCalloutView.xib; sourceTree = "<group>"; };
+		25C99CE617269E6000D8652A /* blue-pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-pin.png"; sourceTree = "<group>"; };
+		25C99CE81726AC6C00D8652A /* AtlatlButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtlAtlButton.h; sourceTree = "<group>"; };
+		25C99CE91726AC6D00D8652A /* AtlatlButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtlAtlButton.m; sourceTree = "<group>"; };
+		25DB89A41727F5F8007E9F2A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		25DB89A61728052A007E9F2A /* AppIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppIcon@2x.png"; sourceTree = "<group>"; };
+		25DB89A817280559007E9F2A /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AppIcon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259A557217254F4500917737 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259A557917254F4500917737 /* UIKit.framework in Frameworks */,
+				259A557B17254F4500917737 /* Foundation.framework in Frameworks */,
+				259A557D17254F4500917737 /* CoreGraphics.framework in Frameworks */,
+				259A55A217255F4800917737 /* CoreLocation.framework in Frameworks */,
+				259A55A417255F5200917737 /* MapKit.framework in Frameworks */,
+				25DB89A51727F5F8007E9F2A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259A556C17254F4500917737 = {
+			isa = PBXGroup;
+			children = (
+				259A557E17254F4500917737 /* AtlatlMapKitDemo */,
+				259A557717254F4500917737 /* Frameworks */,
+				259A557617254F4500917737 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		259A557617254F4500917737 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259A557517254F4500917737 /* AtlatlMapKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259A557717254F4500917737 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259A55A317255F5200917737 /* MapKit.framework */,
+				259A55A117255F4800917737 /* CoreLocation.framework */,
+				259A557C17254F4500917737 /* CoreGraphics.framework */,
+				259A557A17254F4500917737 /* Foundation.framework */,
+				25DB89A41727F5F8007E9F2A /* QuartzCore.framework */,
+				259A557817254F4500917737 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		259A557E17254F4500917737 /* AtlatlMapKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				259A558717254F4500917737 /* AppDelegate.h */,
+				259A558817254F4500917737 /* AppDelegate.m */,
+				25C99CE81726AC6C00D8652A /* AtlatlButton.h */,
+				25C99CE91726AC6D00D8652A /* AtlatlButton.m */,
+				259A559017254F4500917737 /* MainStoryboard_iPhone.storyboard */,
+				259A559317254F4500917737 /* MainStoryboard_iPad.storyboard */,
+				259A559E1725504100917737 /* Person.h */,
+				259A559F1725504100917737 /* Person.m */,
+				259A559617254F4500917737 /* ViewController.h */,
+				259A559717254F4500917737 /* ViewController.m */,
+				25C99CE01726957C00D8652A /* map */,
+				259A557F17254F4500917737 /* Supporting Files */,
+			);
+			path = AtlatlMapKitDemo;
+			sourceTree = "<group>";
+		};
+		259A557F17254F4500917737 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25C99CC617268F1300D8652A /* images */,
+				259A558017254F4500917737 /* AtlatlMapKitDemo.plist */,
+				259A558117254F4500917737 /* InfoPlist.strings */,
+				259A558417254F4500917737 /* main.m */,
+				259A558617254F4500917737 /* AtlatlMapKitDemo.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25C99CC617268F1300D8652A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				25DB89A817280559007E9F2A /* AppIcon.png */,
+				25DB89A61728052A007E9F2A /* AppIcon@2x.png */,
+				25C99CE617269E6000D8652A /* blue-pin.png */,
+				259A558A17254F4500917737 /* Default.png */,
+				259A558C17254F4500917737 /* Default@2x.png */,
+				259A558E17254F4500917737 /* Default-568h@2x.png */,
+				25C99CBA17268EFC00D8652A /* 1.png */,
+				25C99CBB17268EFC00D8652A /* 3.png */,
+				25C99CBC17268EFC00D8652A /* 2.png */,
+				25C99CBD17268EFC00D8652A /* 4.png */,
+				25C99CBE17268EFC00D8652A /* 5.png */,
+				25C99CBF17268EFC00D8652A /* 6.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		25C99CE01726957C00D8652A /* map */ = {
+			isa = PBXGroup;
+			children = (
+				25C99CC71726956F00D8652A /* Content.h */,
+				25C99CC81726956F00D8652A /* Content.m */,
+				25C99CC91726956F00D8652A /* AnnotationProtocol.h */,
+				25C99CCA1726956F00D8652A /* Annotation.h */,
+				25C99CCB1726956F00D8652A /* Annotation.m */,
+				25C99CCC1726956F00D8652A /* AnnotationViewProtocol.h */,
+				25C99CCD1726956F00D8652A /* AnnotationView.h */,
+				25C99CCE1726956F00D8652A /* AnnotationView.m */,
+				25C99CCF1726956F00D8652A /* BaseCalloutView.h */,
+				25C99CD01726957000D8652A /* BaseCalloutView.m */,
+				25C99CD11726957000D8652A /* CalloutView.h */,
+				25C99CD21726957000D8652A /* CalloutView.m */,
+				25C99CD31726957000D8652A /* CalloutView.xib */,
+				25C99CD41726957000D8652A /* CalloutAnnotation.h */,
+				25C99CD51726957000D8652A /* CalloutAnnotation.m */,
+				25C99CD61726957000D8652A /* MapUtil.h */,
+				25C99CD71726957000D8652A /* MapUtil.m */,
+				25C99CE11726966A00D8652A /* MyCalloutView.h */,
+				25C99CE21726966A00D8652A /* MyCalloutView.m */,
+				25C99CE31726966A00D8652A /* MyCalloutView.xib */,
+			);
+			name = map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259A557417254F4500917737 /* AtlatlMapKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259A559B17254F4500917737 /* Build configuration list for PBXNativeTarget "AtlatlMapKitDemo" */;
+			buildPhases = (
+				259A557117254F4500917737 /* Sources */,
+				259A557217254F4500917737 /* Frameworks */,
+				259A557317254F4500917737 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtlatlMapKitDemo;
+			productName = AtlatlMapKitDemo;
+			productReference = 259A557517254F4500917737 /* AtlatlMapKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259A556D17254F4500917737 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Michael Dautermann";
+			};
+			buildConfigurationList = 259A557017254F4500917737 /* Build configuration list for PBXProject "AtlatlMapKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 259A556C17254F4500917737;
+			productRefGroup = 259A557617254F4500917737 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259A557417254F4500917737 /* AtlatlMapKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259A557317254F4500917737 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259A558317254F4500917737 /* InfoPlist.strings in Resources */,
+				259A558B17254F4500917737 /* Default.png in Resources */,
+				259A558D17254F4500917737 /* Default@2x.png in Resources */,
+				259A558F17254F4500917737 /* Default-568h@2x.png in Resources */,
+				259A559217254F4500917737 /* MainStoryboard_iPhone.storyboard in Resources */,
+				259A559517254F4500917737 /* MainStoryboard_iPad.storyboard in Resources */,
+				25C99CC017268EFC00D8652A /* 1.png in Resources */,
+				25C99CC117268EFC00D8652A /* 3.png in Resources */,
+				25C99CC217268EFC00D8652A /* 2.png in Resources */,
+				25C99CC317268EFC00D8652A /* 4.png in Resources */,
+				25C99CC417268EFC00D8652A /* 5.png in Resources */,
+				25C99CC517268EFC00D8652A /* 6.png in Resources */,
+				25C99CDD1726957000D8652A /* CalloutView.xib in Resources */,
+				25C99CE51726966A00D8652A /* MyCalloutView.xib in Resources */,
+				25C99CE717269E6000D8652A /* blue-pin.png in Resources */,
+				25DB89A71728052A007E9F2A /* AppIcon@2x.png in Resources */,
+				25DB89A917280559007E9F2A /* AppIcon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259A557117254F4500917737 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259A558517254F4500917737 /* main.m in Sources */,
+				259A558917254F4500917737 /* AppDelegate.m in Sources */,
+				259A559817254F4500917737 /* ViewController.m in Sources */,
+				259A55A01725504100917737 /* Person.m in Sources */,
+				25C99CD81726957000D8652A /* Content.m in Sources */,
+				25C99CD91726957000D8652A /* Annotation.m in Sources */,
+				25C99CDA1726957000D8652A /* AnnotationView.m in Sources */,
+				25C99CDB1726957000D8652A /* BaseCalloutView.m in Sources */,
+				25C99CDC1726957000D8652A /* CalloutView.m in Sources */,
+				25C99CDE1726957000D8652A /* CalloutAnnotation.m in Sources */,
+				25C99CDF1726957000D8652A /* MapUtil.m in Sources */,
+				25C99CE41726966A00D8652A /* MyCalloutView.m in Sources */,
+				25C99CEA1726AC6E00D8652A /* AtlatlButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		259A558117254F4500917737 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259A558217254F4500917737 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		259A559017254F4500917737 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259A559117254F4500917737 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		259A559317254F4500917737 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259A559417254F4500917737 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259A559917254F4500917737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = AtlatlMapKitDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259A559A17254F4500917737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = AtlatlMapKitDemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259A559C17254F4500917737 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlatlMapKitDemo/AtlatlMapKitDemo.pch";
+				INFOPLIST_FILE = AtlatlMapKitDemo/AtlatlMapKitDemo.plist;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		259A559D17254F4500917737 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtlatlMapKitDemo/AtlatlMapKitDemo.pch";
+				INFOPLIST_FILE = AtlatlMapKitDemo/AtlatlMapKitDemo.plist;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259A557017254F4500917737 /* Build configuration list for PBXProject "AtlatlMapKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259A559917254F4500917737 /* Debug */,
+				259A559A17254F4500917737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259A559B17254F4500917737 /* Build configuration list for PBXNativeTarget "AtlatlMapKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259A559C17254F4500917737 /* Debug */,
+				259A559D17254F4500917737 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 259A556D17254F4500917737 /* Project object */;
+}
